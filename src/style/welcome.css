@@ -1,0 +1,48 @@
+.welcome-page {
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.welcome-title {
+  text-align: center;
+  font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+  margin-bottom: 0;
+}
+
+.welcome-description {
+  text-align: center;
+  font-family: cursive; 
+}
+.welcome--image_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 220px;
+}
+.welcome-image {
+  max-width: 300px;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  opacity: 0.4;
+  top: 0
+}
+
+.welcome-redirect {
+text-align: center;
+font-family: monospace;
+}
+
+.welcome-redirect_link {
+  text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+  .welcome--image_container {
+    height: 150px;
+  }
+  .welcome-image {
+    max-width: 200px;
+  }
+}

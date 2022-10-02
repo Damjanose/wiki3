@@ -1,0 +1,24 @@
+.filtered_data--table_body td {
+  border-bottom: 1px solid #000;
+  padding-right: 30px;
+}
+.filtered_data--table_body:nth-last-child(1) td {
+  border-bottom: 0 !important;
+}
+
+.filtered_data--table_heder th {
+  padding-right: 20px;
+}
+.filtered_data--results {
+  border: 1px solid #000;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 500px) {
+  .filtered_data--table_heder th {
+    padding-right: 10px;
+  }
+  .filtered_data--table_body td {
+    padding-right: 10px;
+  }
+}

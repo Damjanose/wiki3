@@ -1,0 +1,30 @@
+.filtered_data--results {
+  overflow: auto;
+  min-height: 120px;
+}
+.filtered_data--table {
+  /* max-width: 80%;   */
+  margin: auto;
+  padding: 5px 7px;
+}
+@media only screen and (max-width: 500px) {
+  .filtered_data--results {
+    overflow-x: auto;
+  }
+}
+.show_all_aveliable_datas {
+  width: 80%;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+  border-radius: 30px;
+}
+
+.warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
