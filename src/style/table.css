@@ -21,4 +21,7 @@
   .filtered_data--table_body td {
     padding-right: 10px;
   }
+  .filtered_data--table_body td {
+    font-size: 12px;
+  }
 }
