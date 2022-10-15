@@ -1,18 +1,14 @@
 .results {
-  width: 350px;
-  position: relative;
-  bottom: 39px;
+  width: 80%;
 }
 
-.results_container {
-  background-color: #ebebeb;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-}
 .filtered_data--table_body {
-  border-bottom: 1px solid;
-  padding: 0 10px;
+  background-image: linear-gradient(#ffbaba, #35cfba);
+  border-radius: 10px;
+  padding: 5px 30px;
+  margin: 20px 0;
 }
+
 .filtered_data--table_body__title {
   padding-left: 15px;
 }
